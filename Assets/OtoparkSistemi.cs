@@ -4,29 +4,55 @@ using UnityEngine;
 
 public class OtoparkSistemi : MonoBehaviour
 {
+    
+    public int süre;
+
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        int süre = 1;
+        if (süre < 0)
+        {
+            Debug.Log("Geçersiz Saat");
+            return;
+        }
+
 
         switch (süre)
         {
-            case 1: print("120 TL");
+
+            case 0:
+                Debug.Log("Ücretsiz");
                 break;
 
-            case 2: print("200 TL");
+            case 1:
+                Debug.Log("120 TL");
                 break;
 
-            case 3: print("300 TL");
+            case 2:
+                Debug.Log("200 TL");
                 break;
 
-            case 4: print("400 TL");
+            case 3:
+                Debug.Log("300 TL");
+                break;
+
+            case 4:
+                Debug.Log("400 TL");
+                break;
+
+            default:
+                Debug.Log("550 TL");
                 break;
 
 
-            
+   
         }
-                
+
+      
+
+
+
     }
 
     // Update is called once per frame
