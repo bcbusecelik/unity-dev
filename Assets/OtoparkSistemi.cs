@@ -5,7 +5,7 @@ using UnityEngine;
 public class OtoparkSistemi : MonoBehaviour
 {
     
-    public int süre;
+    public int süre; // Süreyi unity içinde deðiþtirmek için 
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
