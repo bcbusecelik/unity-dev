@@ -14,6 +14,16 @@ public class OtoparkSistemi : MonoBehaviour
             case 1: print("120 TL");
                 break;
 
+            case 2: print("200 TL");
+                break;
+
+            case 3: print("300 TL");
+                break;
+
+            case 4: print("400 TL");
+                break;
+
+
             
         }
                 
