@@ -14,9 +14,9 @@ public class OtoparkSistemi : MonoBehaviour
         if (süre < 0)
         {
             Debug.Log("Geçersiz Saat");
-            return;
+            
         }
-
+        else
 
         switch (süre)
         {
@@ -45,13 +45,7 @@ public class OtoparkSistemi : MonoBehaviour
                 Debug.Log("550 TL");
                 break;
 
-
-   
         }
-
-      
-
-
 
     }
 
